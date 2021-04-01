@@ -51,6 +51,55 @@ public class MyFirstApplications {
     
     Задание 4.
     
+    public class MyFirstApplications {
+    public static void main(String[] args) {
+        HomeWork();
+    }
+    static void HomeWork() {
+        int[][] arr = new int[3][3];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0, x = arr[i].length - 1; j < arr[i].length; j++, x--) {
+                if (i == j || i == x) arr[i][j] = 1;
+                else arr[i][j] = 0;
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.print("\n");
+        }
+    }
+}
+
+Задание 5.
+
+public class MyFirstApplications {
+    public static void main(String[] args) {
+        HomeWork();
+    }
+    static void HomeWork() {
+        int[] values = {-3, 10, -20,  7, 40, 1000};
+        System.out.println("Max: " + max(values));
+        System.out.println("Min: " + min(values));
+    }
+
+    static int max(int[] values) {
+        int max = values[0];
+        for (int i = 1; i < values.length; i++) {
+            if (max < values[i]) {
+                max = values[i];
+            }
+        }
+        return max;
+    }
+
+    static int min(int[] values) {
+        int min = values[0];
+        for (int i = 1; i < values.length; i++) {
+            if (min > values[i]) {
+                min = values[i];
+            }
+        }
+        return min;
+    }}
+    
     
     
         
