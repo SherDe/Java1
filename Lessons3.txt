@@ -1,8 +1,10 @@
+Задание 1
+
 public class HomeWork {
     public static void main(String[] args) {
         System.out.println(HomeWork1(а: 5, b: 10));
     }
-
+    
     static boolean HomeWork1(int a, int b) {
         System.out.println();
         int sum = a + b;
@@ -12,6 +14,7 @@ public class HomeWork {
 }
 
 
+Задание 2
 public class HomeWork {
     public static void main(String[] args) {
         HomeWork2(а: -13);
@@ -23,7 +26,7 @@ public class HomeWork {
         System.out.println(word);
     }
 }
-
+Задание 3
 public class HomeWork {
     public static void main(String[] args) {
         System.out.println(HomeWork3(а: 10203));
@@ -34,7 +37,7 @@ public class HomeWork {
     }
 }
 
-
+Задание 4
 public class HomeWork {
     public static void main(String[] args) {
 
